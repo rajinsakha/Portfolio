@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portolio/static/css/main.7908e809.css",
+    "main.js": "/Portolio/static/js/main.37b58bfe.js",
+    "static/media/about-img.jpg": "/Portolio/static/media/about-img.3f1f85234c67df4c5080.jpg",
+    "static/media/RajinSakha.jpg": "/Portolio/static/media/RajinSakha.d1a5176d66d08e551353.jpg",
+    "index.html": "/Portolio/index.html",
+    "main.7908e809.css.map": "/Portolio/static/css/main.7908e809.css.map",
+    "main.37b58bfe.js.map": "/Portolio/static/js/main.37b58bfe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7908e809.css",
+    "static/js/main.37b58bfe.js"
+  ]
+}
