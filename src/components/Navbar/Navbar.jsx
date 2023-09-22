@@ -6,6 +6,7 @@ import images from "../../constants/images";
 
 import "./Navbar.css";
 
+
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -16,22 +17,26 @@ const Navbar = () => {
       </div>
 
       <ul className="app__navbar-links">
-        <li className="p__poppins">
+        <li className="p__description">
           <a href="#home">Home</a>
         </li>
-        <li className="p__poppins">
+        <li className="p__description">
           <a href="#about">About</a>
         </li>
-        <li className="p__poppins">
+        <li className="p__description">
           <a href="#services">Services</a>
         </li>
-        <li className="p__poppins">
+        <li className="p__description">
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li className="p__poppins">
+        <li className="p__description">
           <a href="#contact">Contact</a>
         </li>
       </ul>
+
+      <div className="app__navbar-socialLinks">
+
+      </div>
 
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
@@ -52,19 +57,19 @@ const Navbar = () => {
               }}
             />
             <ul className="app__navbar-smallscreen_links">
-              <li className="p__poppins">
+              <li className="p__description">
                 <a href="#home">Home</a>
               </li>
-              <li className="p__poppins">
+              <li className="p__description">
                 <a href="#about">About</a>
               </li>
-              <li className="p__poppins">
+              <li className="p__description">
                 <a href="#services">Services</a>
               </li>
-              <li className="p__poppins">
+              <li className="p__description">
                 <a href="#portfolio">Portfolio</a>
               </li>
-              <li className="p__poppins">
+              <li className="p__description">
                 <a href="#contact">Contact</a>
               </li>
             </ul>

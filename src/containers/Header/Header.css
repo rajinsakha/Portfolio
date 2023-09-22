@@ -1,0 +1,32 @@
+.app__header{
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__header-p{
+    color: var(--color-white);
+    font-size: 30px;
+}
+
+.app__header-h1{
+    color: var(--color-white);
+    font-size: 4rem;
+    margin-top: 20px;
+}
+
+.app__header_highlighted{
+    color: var(--color-red);
+}
+
+.app__wrapper_img img{
+    width: 80%;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header{
+        flex-direction: column;
+    }
+    
+}

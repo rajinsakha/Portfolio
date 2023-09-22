@@ -50,10 +50,17 @@
   .app__wrapper_img img {
     width: 80%;
   }
+
+  .app__grid_content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
   
   .custom__button {
-    background-color: var(--color-crimson);
-      color: var(--color-black);
+    background-color: var(--color-red);
+      color: var(--color-white);
       font-family: var(--font-base);
       font-weight: 700;
       letter-spacing: 0.04em;
@@ -72,24 +79,22 @@
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: capitalize;
-    font-feature-settings: 'tnum' on, 'lnum' on;
     line-height: 29.9px;
     font-size: 23px;
   }
   
-  .p__poppins {
+  .p__description{
     font-family: var(--font-base);
     color: var(--color-white);
     font-weight: 400;
     letter-spacing: 0.04em;
-    text-transform: capitalize;
     line-height: 28px;
     font-size: 18px;
   }
   
-  .headtext__cormorant {
+  .headtext__title {
     font-family: var(--font-base);
-    color: var(--color-golden);
+    color: var(--color-white);
     font-size: 64px;
     line-height: 83.2px;
     letter-spacing: 0.04em;
@@ -99,6 +104,8 @@
   .spoon__img {
     width: 45px;
   }
+
+
   
   @media screen and (min-width: 2000px) {
     .custom__button,
@@ -107,7 +114,7 @@
       line-height: 67px;
     }
   
-    .p__poppins {
+    .p__description {
       font-size: 30px;
       line-height: 50px;
     }
@@ -155,13 +162,13 @@
       font-size: 21px;
     }
   
-    .p__poppins {
+    .p__description {
       font-size: 14px;
     }
   }
   
   @media screen and (max-width: 450px) {
-    .p__poppins {
+    .p__description {
       font-size: 12px;
     }
   

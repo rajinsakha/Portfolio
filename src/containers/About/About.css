@@ -1,0 +1,52 @@
+.app__about{
+    background-color: var(--color-black);
+}
+
+.app__about_img{
+    flex: 0.7;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app__about_img img{
+    width: 80%;
+    border-radius: 16px;
+}
+
+.app__about-content{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.app__about-content p{
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tab-links{
+    font-family: var(--font-base);
+    margin-right: 50px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-grey);
+    cursor: pointer;
+    position: relative; /* For parent */
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active::after{
+     width: 50%;
+}
+
