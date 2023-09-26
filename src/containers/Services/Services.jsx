@@ -29,7 +29,7 @@ const Services = () => {
 
   return (
     <div className='app__services section__padding'>
-        <h1 className="headtext__title">My Services</h1>
+        <h1 className="headtext__title" style={{textAlign:'center'}}>My Services</h1>
 
         <div className="app__grid_content">
           {services.map((service,index)=>(

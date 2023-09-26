@@ -1,0 +1,9 @@
+.app__portfolio{
+    background-color: var(--color-black);
+
+}
+
+.app__portfolio-content{
+    margin: 3rem 0;
+}
+

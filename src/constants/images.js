@@ -1,10 +1,16 @@
 import logo from '../assets/logo.png';
 import headerImg from '../assets/RajinSakha.jpg';
 import aboutImg from '../assets/about-img.jpg';
+import groceryStore from '../assets/groceryStore.png';
+import textUtils from '../assets/textUtils.png';
+import calculator from '../assets/calculator.png';
 
 
 export default {
     logo,
     headerImg,
-    aboutImg
+    aboutImg,
+    groceryStore,
+    textUtils, 
+    calculator
 };

@@ -59,4 +59,5 @@ const qualifications = [
  
 ];
 
+
 export default { skills, experiences, qualifications };
