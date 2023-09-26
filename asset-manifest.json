@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/Portolio/static/css/main.7908e809.css",
-    "main.js": "/Portolio/static/js/main.37b58bfe.js",
+    "main.css": "/Portolio/static/css/main.6d3b812a.css",
+    "main.js": "/Portolio/static/js/main.41063f5e.js",
     "static/media/about-img.jpg": "/Portolio/static/media/about-img.3f1f85234c67df4c5080.jpg",
+    "static/media/groceryStore.png": "/Portolio/static/media/groceryStore.136a8161a837de49ad4e.png",
     "static/media/RajinSakha.jpg": "/Portolio/static/media/RajinSakha.d1a5176d66d08e551353.jpg",
+    "static/media/textUtils.png": "/Portolio/static/media/textUtils.56a241237357783783cc.png",
+    "static/media/calculator.png": "/Portolio/static/media/calculator.de64360ea1fbe5f4ce82.png",
     "index.html": "/Portolio/index.html",
-    "main.7908e809.css.map": "/Portolio/static/css/main.7908e809.css.map",
-    "main.37b58bfe.js.map": "/Portolio/static/js/main.37b58bfe.js.map"
+    "main.6d3b812a.css.map": "/Portolio/static/css/main.6d3b812a.css.map",
+    "main.41063f5e.js.map": "/Portolio/static/js/main.41063f5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7908e809.css",
-    "static/js/main.37b58bfe.js"
+    "static/css/main.6d3b812a.css",
+    "static/js/main.41063f5e.js"
   ]
 }
