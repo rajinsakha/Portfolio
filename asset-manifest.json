@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/Portolio/static/css/main.6d3b812a.css",
-    "main.js": "/Portolio/static/js/main.41063f5e.js",
+    "main.css": "/Portolio/static/css/main.2c3e4219.css",
+    "main.js": "/Portolio/static/js/main.e6ea6698.js",
     "static/media/about-img.jpg": "/Portolio/static/media/about-img.3f1f85234c67df4c5080.jpg",
     "static/media/groceryStore.png": "/Portolio/static/media/groceryStore.136a8161a837de49ad4e.png",
+    "static/media/RajinSakha_Resume.pdf": "/Portolio/static/media/RajinSakha_Resume.fcde4eeb9f6c70a9b4ca.pdf",
     "static/media/RajinSakha.jpg": "/Portolio/static/media/RajinSakha.d1a5176d66d08e551353.jpg",
     "static/media/textUtils.png": "/Portolio/static/media/textUtils.56a241237357783783cc.png",
     "static/media/calculator.png": "/Portolio/static/media/calculator.de64360ea1fbe5f4ce82.png",
     "index.html": "/Portolio/index.html",
-    "main.6d3b812a.css.map": "/Portolio/static/css/main.6d3b812a.css.map",
-    "main.41063f5e.js.map": "/Portolio/static/js/main.41063f5e.js.map"
+    "main.2c3e4219.css.map": "/Portolio/static/css/main.2c3e4219.css.map",
+    "main.e6ea6698.js.map": "/Portolio/static/js/main.e6ea6698.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d3b812a.css",
-    "static/js/main.41063f5e.js"
+    "static/css/main.2c3e4219.css",
+    "static/js/main.e6ea6698.js"
   ]
 }
