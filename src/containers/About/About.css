@@ -22,11 +22,11 @@
 .app__about-content{
     display: flex;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .app__about-content p{
     margin-right: 2rem;
-    margin-bottom: 1rem;
 }
 
 .tab-links{
