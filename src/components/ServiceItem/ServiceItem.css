@@ -1,7 +1,12 @@
 .app__serviceItem{
-  background: #262626;
+  background: var(--color-darkgray);
   padding: 40px;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.app__serviceItem:hover{
+  background: var(--color-red);
 }
 
 .app__serviceItem_headtext {
