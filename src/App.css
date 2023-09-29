@@ -122,9 +122,7 @@
   }
   
   @media screen and (max-width: 1150px) {
-    .app__wrapper {
-      flex-direction: column;
-    }
+   
   
     .app__wrapper_img {
       margin: 5rem 0 0 0;
@@ -140,6 +138,10 @@
   }
   
   @media screen and (max-width: 850px) {
+    .app__wrapper {
+      flex-direction: column;
+    }
+
     .section__padding {
       padding: 4rem;
     }
@@ -159,9 +161,9 @@
     }
   }
   
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 500px) {
     .p__description {
-      font-size: 12px;
+      font-size: 14px;
     }
   
     .p__title {

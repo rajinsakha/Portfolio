@@ -1,0 +1,102 @@
+.app__contact{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__contact_details{
+    flex-basis: 35%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.app__contact_form{
+    flex-basis: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.app__contact-head{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.app__contact-text{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 1rem;
+}
+
+.app__contact-social_icons{
+    margin-top: 2rem;
+}
+
+.app__contact-social_icons a{
+    margin-right: 1.2rem;
+}
+
+.social_icon:hover{
+    fill: var(--color-red);
+}
+
+#app__contact-form{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+#app__contact-form input, textarea{
+ width: 100%;
+  border: 0;
+  outline: none;
+  background: var(--color-darkgray);
+  padding: 15px;
+  margin: 15px 0;
+  color: var(--color-white);
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+#app__contact-form textarea{
+    resize: none;
+}
+
+.send-msg{
+    width: fit-content;
+}
+
+@media screen and (max-width: 650px) {
+    .app__contact{
+        flex-direction: column;
+    }
+
+    #app__contact-form{
+        width: 80%;
+        margin-top: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+    #app__contact-form{
+        width: 100%;
+    }
+
+    .app__contact-head{
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .app__contact-text{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+}

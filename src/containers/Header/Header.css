@@ -28,5 +28,27 @@
     .app__header{
         flex-direction: column;
     }
+
+    #img-div {
+        display: none;
+    }
     
+}
+
+@media screen and (max-width: 750px ){
+    .app__header-h1{
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .app__header-h1{
+        font-size: 1.9rem;
+    }
+
+    .app__header-p{
+        font-size: 20px;
+    }
 }

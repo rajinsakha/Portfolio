@@ -28,7 +28,7 @@ const Services = () => {
  
 
   return (
-    <div className='app__services section__padding'>
+    <div className='app__services section__padding' id='services'>
         <h1 className="headtext__title" style={{textAlign:'center'}}>My Services</h1>
 
         <div className="app__grid_content">

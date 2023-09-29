@@ -1,5 +1,9 @@
 .app__about{
     background-color: var(--color-black);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .app__about_img{
@@ -22,7 +26,7 @@
 
 .app__about-content p{
     margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .tab-links{
@@ -48,5 +52,20 @@
 
 .tab-links.active::after{
      width: 50%;
+}
+
+@media screen and (max-width: 850px) {
+.app__about{
+    flex-direction: column;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+    .app__about-content p{
+        font-size: 1rem;
+        margin-right: 1.5rem;
+    }
+    
 }
 

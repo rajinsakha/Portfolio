@@ -9,7 +9,7 @@ const About = () => {
   const [activeList, setActiveList] = useState(0); 
 
   return (
-    <div className="app__about app__wrapper section__padding" id="about">
+    <div className="app__about section__padding" id="about">
       <div className="app__about_img">
         <img src={images.aboutImg} alt="about-img" />
       </div>

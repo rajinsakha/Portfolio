@@ -7,3 +7,14 @@
     margin: 4rem 0;
 }
 
+@media screen and (max-width: 750px){
+  .app__portfolio-content{
+    margin: 2rem 0;
+  }
+} 
+
+@media screen and (max-width: 500px){
+    .app__portfolio-content{
+      margin: 1rem 0;
+    }
+  } 
