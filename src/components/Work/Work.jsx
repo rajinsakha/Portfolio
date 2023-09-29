@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Work.css";
 
-const Work = ({ imgUrl, title, description, index }) => {
+const Work = ({ imgUrl, title, description, link, index }) => {
   const isEvenIndex = index % 2 === 0;
 
   return (
@@ -14,7 +14,7 @@ const Work = ({ imgUrl, title, description, index }) => {
           <div className="app__work_details">
             <h3 className="app__work_details-title">{title}</h3>
             <p className="app__work_details-description">{description}</p>
-            <a href="http://" className="custom__button">View Project</a>
+            <a href={link} target="_blank"  className="custom__button">View Project</a>
           </div>
           <div className="app__work_image">
             <img src={imgUrl} alt={`${imgUrl} thumbnail`} />
@@ -28,7 +28,7 @@ const Work = ({ imgUrl, title, description, index }) => {
           <div className="app__work_details">
             <h3 className="app__work_details-title">{title}</h3>
             <p className="app__work_details-description">{description}</p>
-            <a href="http://" className="custom__button">View Project</a>
+            <a href={link} target="_blank" className="custom__button">View Project</a>
           </div>
         </>
       )}

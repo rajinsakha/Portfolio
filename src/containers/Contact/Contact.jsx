@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker} from 'react-icons/hi';
 import {FaInstagram} from 'react-icons/fa';
 import {BsFacebook, BsGithub , BsLinkedin} from 'react-icons/bs';
@@ -6,6 +6,39 @@ import {BsFacebook, BsGithub , BsLinkedin} from 'react-icons/bs';
 import './Contact.css'
 
 const Contact = () => {
+  const [data, setData] = useState({
+    name:"",
+    email:"",
+    message: ""
+  });
+
+  const {name, email, message} = data;
+
+  const handleChange = (e)=>{
+    setData({...data, [e.target.name]: e.target.value}); //Object Literal
+  }
+
+  const handleSubmit = async (e)=>{
+    e.preventDefault();
+
+    try{
+      const response = await fetch(
+        "https://v1.nocodeapi.com/rajinsakha07/google_sheets/uRbDDglvCtqbkVTx",{
+          method: "POST",
+          headers:{
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify([[name, email, message, new Date().toLocaleString()]])
+        }
+      )
+      await response.json();
+      setData({...data, name: '', email:"", message:""})
+    }catch(err){
+      console.log(err);
+    }
+  }
+
+
   return (
     <div className='app__contact section__padding' id='contact'>
       <div className="app__contact_details">
@@ -36,11 +69,11 @@ const Contact = () => {
       </div>
 
       <div className="app__contact_form">
-        <form action="" id='app__contact-form'>
-          <input type="text" name="" id=""  placeholder='Your Full Name'/>
-          <input type="email" name='' id='' placeholder='Your Email' />
-          <textarea name="" id="" cols="30" rows="10" placeholder='Your Message'></textarea>
-          <button className='custom__button send-msg' style={{marginTop:'0.7rem'}}>Send Message</button>
+        <form id='app__contact-form' method='POST' onSubmit={handleSubmit}>
+          <input type="text" name="name" value={name} onChange={handleChange}  placeholder='Your Full Name' required/>
+          <input type="email" name='email' value={email}  onChange={handleChange}  placeholder='Your Email' required/>
+          <textarea name="message" value={message}  onChange={handleChange} cols="30" rows="10" placeholder='Your Message' required></textarea>
+          <button className='contact-btn' style={{marginTop:'0.7rem'}}>Send Message</button>
         </form>
       </div>
     </div>
