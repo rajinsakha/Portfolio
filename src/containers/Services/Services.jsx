@@ -1,5 +1,6 @@
 import React from 'react'
-import {FaCode, FaCropAlt, FaAppStore } from 'react-icons/fa'
+import {FaCode, FaCropAlt } from 'react-icons/fa';
+import {BiSolidDevices} from 'react-icons/bi';
 
 import './Services.css';
 import ServiceItem from '../../components/ServiceItem/ServiceItem';
@@ -7,18 +8,18 @@ import ServiceItem from '../../components/ServiceItem/ServiceItem';
 const services = [
   {
     icon: FaCropAlt,
-    title: 'UI/UX Design',
-    description: 'Designing Web/Mobile App Interfaces.',
+    title: 'UI/UX Design Implementation' ,
+    description: 'Converting UI/UX Design into Web Application that focuses on bringing visually appealing designs to life while ensuring a user-friendly experience',
   },
   {
-    icon: FaCode,
-    title: 'Web App Development',
-    description: 'Developing Web Application',
+    icon: BiSolidDevices,
+    title: 'Resonsive Web Development',
+    description: 'Designing Responsive Web Application that can be tailored for all devices.',
   },
   {
-   icon: FaAppStore,
-    title: 'Mobile App Development',
-    description: 'Developing Mobile Application',
+   icon: FaCode,
+    title: 'Writing Clean Codes ',
+    description: 'Writing Clean Codes for developing easily maintainable, scalable and bug-free web application ',
   },
  
 ];

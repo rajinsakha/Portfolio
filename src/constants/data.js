@@ -4,18 +4,18 @@
 const skills = [
   {
 
-    title: 'UI/UX',
-    subtitle: 'Designing Web/Mobile App Interfaces.',
+    title: 'Programming Languages',
+    subtitle: 'HTML, CSS, JavaScript, PHP, MySQL',
   },
   {
   
-    title: 'Web App Development',
-    subtitle: 'Developing Web Application',
+    title: 'Framework and Libraries',
+    subtitle: 'React.js, Bootstrap, Tailwind',
   },
   {
    
-    title: 'Mobile App Development',
-    subtitle: 'Developing Mobile Application',
+    title: 'Version Control Systems',
+    subtitle: 'Git, GitHub',
   },
  
 ];
