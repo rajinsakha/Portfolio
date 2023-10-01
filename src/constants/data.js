@@ -22,20 +22,9 @@ const skills = [
 
 const experiences = [
   {
-
-    title: '2022-Current',
-    subtitle: 'Designing Web/Mobile App Interfaces.',
-  },
-  {
-  
-    title: '2021-2022',
-    subtitle: 'Developing Web Application',
-  },
-  {
-   
-    title: '2020-2021',
-    subtitle: 'Developing Mobile Application',
-  },
+    title: 'No Professional Experience',
+    subtitle:'Looking for Front-End Developer Internships'
+  }
  
 ];
 
