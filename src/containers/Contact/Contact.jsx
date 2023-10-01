@@ -12,14 +12,23 @@ const Contact = () => {
     message: ""
   });
 
+  const [msg, setMsg] = useState('');
+  const [showMsg, setShowMsg] = useState(false);
+
   const {name, email, message} = data;
+
 
   const handleChange = (e)=>{
     setData({...data, [e.target.name]: e.target.value}); //Object Literal
   }
 
+
+
   const handleSubmit = async (e)=>{
     e.preventDefault();
+
+    
+  
 
     try{
       const response = await fetch(
@@ -32,9 +41,20 @@ const Contact = () => {
         }
       )
       await response.json();
+      setShowMsg(true);
+      setMsg('Form Submitted!');
       setData({...data, name: '', email:"", message:""})
+      setTimeout(() => {
+        setShowMsg(false);
+      }, 3000);
+    
     }catch(err){
       console.log(err);
+      setShowMsg(true);
+      setMsg('Form Submission Failed!');
+      setTimeout(() => {
+        setShowMsg(false);
+      }, 3000);
     }
   }
 
@@ -75,6 +95,7 @@ const Contact = () => {
           <textarea name="message" value={message}  onChange={handleChange} cols="30" rows="10" placeholder='Your Message' required></textarea>
           <button className='contact-btn' style={{marginTop:'0.7rem'}}>Send Message</button>
         </form>
+        {showMsg && <div className="sent-message">{msg}</div>}
       </div>
     </div>
   )

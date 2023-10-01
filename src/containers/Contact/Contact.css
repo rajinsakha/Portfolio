@@ -84,6 +84,15 @@ textarea {
   cursor: pointer;
 }
 
+.sent-message{
+  margin-top: 1rem;
+  color: var(--color-golden);
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+
 @media screen and (max-width: 650px) {
   .app__contact {
     flex-direction: column;
