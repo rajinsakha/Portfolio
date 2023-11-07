@@ -24,6 +24,14 @@ const Portfolio = () => {
       description:"This Calculator, crafted using the robust and dynamic React JS framework, exemplifies a seamless melding of simplicity, functionality, and elegance. With a user-friendly interface that facilitates easy input and clear display, alongside precise computational abilities, it effortlessly handles a variety of calculations, be it basic arithmetic or complex computations. The React JS backbone ensures a responsive and intuitive user experience, making this Calculator not just a tool, but a reliable companion for solving mathematical queries swiftly and accurately.",
       link:"https://rajinsakha.github.io/Calculator/"
     },
+    {
+      img: images.travelAgency,
+      title: 'Travel Agency',
+      description:"This Travel Agency website is a design created with React JS. It looks like a real travel website where you can find places to visit, hotels, and flights, but it's just a sample to show what a travel website could look like. It has a simple, clean and responsive design that works well on all devices.",
+      link:"https://rajinsakha.github.io/TravelAgency/"
+    },
+    
+
   ]
 
 

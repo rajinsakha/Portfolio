@@ -64,7 +64,12 @@
       outline: none;
       cursor: pointer;
   }
+
+  .custom__button:hover{
+    background-color: var(--color-hover);
+  }
   
+
   .p__title {
     font-family: var(--font-base);
     color: var(--color-white);

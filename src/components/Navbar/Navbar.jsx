@@ -34,10 +34,6 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="app__navbar-socialLinks">
-
-      </div>
-
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
           className="app__navbar-smallscreen_hamburger"

@@ -4,7 +4,7 @@ import aboutImg from '../assets/about-img.jpg';
 import groceryStore from '../assets/groceryStore.png';
 import textUtils from '../assets/textUtils.png';
 import calculator from '../assets/calculator.png';
-
+import travelAgency from '../assets/travelAgency.png';
 
 export default {
     logo,
@@ -12,5 +12,6 @@ export default {
     aboutImg,
     groceryStore,
     textUtils, 
-    calculator
+    calculator,
+    travelAgency
 };
