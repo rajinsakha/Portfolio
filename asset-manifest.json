@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8f40524d.css",
-    "main.js": "/Portfolio/static/js/main.3440600c.js",
+    "main.css": "/Portfolio/static/css/main.2078187d.css",
+    "main.js": "/Portfolio/static/js/main.152f8961.js",
     "static/media/about-img.jpg": "/Portfolio/static/media/about-img.3f1f85234c67df4c5080.jpg",
     "static/media/groceryStore.png": "/Portfolio/static/media/groceryStore.136a8161a837de49ad4e.png",
+    "static/media/travelAgency.png": "/Portfolio/static/media/travelAgency.01f089a3fa83be378b82.png",
     "static/media/RajinSakha_Resume.pdf": "/Portfolio/static/media/RajinSakha_Resume.fcde4eeb9f6c70a9b4ca.pdf",
     "static/media/RajinSakha.jpg": "/Portfolio/static/media/RajinSakha.d1a5176d66d08e551353.jpg",
     "static/media/textUtils.png": "/Portfolio/static/media/textUtils.56a241237357783783cc.png",
     "static/media/calculator.png": "/Portfolio/static/media/calculator.de64360ea1fbe5f4ce82.png",
     "index.html": "/Portfolio/index.html",
-    "main.8f40524d.css.map": "/Portfolio/static/css/main.8f40524d.css.map",
-    "main.3440600c.js.map": "/Portfolio/static/js/main.3440600c.js.map"
+    "main.2078187d.css.map": "/Portfolio/static/css/main.2078187d.css.map",
+    "main.152f8961.js.map": "/Portfolio/static/js/main.152f8961.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f40524d.css",
-    "static/js/main.3440600c.js"
+    "static/css/main.2078187d.css",
+    "static/js/main.152f8961.js"
   ]
 }
