@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div className="app__about section__padding" id="about">
       <div className="app__about_img">
-        <img src={images.aboutImg} alt="about-img" />
+        <img src={images.aboutImg} alt="Rajin Sakha" />
       </div>
 
       <div className="app__wrapper_info">

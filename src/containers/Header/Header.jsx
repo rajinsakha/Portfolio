@@ -1,5 +1,5 @@
 import React from 'react';
-import cv from '../../assets/RajinSakha_Resume.pdf';
+import cv from '../../assets/RajinSakha-Resume.pdf';
 import images from '../../constants/images'
 import './Header.css'
 
@@ -14,7 +14,7 @@ const Header = () => {
       </div>
 
       <div className="app__wrapper_img" id='img-div'>
-        <img src={images.headerImg} alt="header image" />
+        <img src={images.headerImg} alt="Rajin Sakha" />
       </div>
     
     </div>
