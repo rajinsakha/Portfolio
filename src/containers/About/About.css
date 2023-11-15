@@ -54,6 +54,11 @@
      width: 50%;
 }
 
+.fixed-list{
+    height: 250px;
+    overflow: auto;
+}
+
 @media screen and (max-width: 850px) {
 .app__about{
     flex-direction: column;

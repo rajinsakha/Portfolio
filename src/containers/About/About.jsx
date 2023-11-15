@@ -31,6 +31,8 @@ const About = () => {
           </p>
         </div>
 
+        <div className="fixed-list">
+
         {activeList === 0 && 
           data.skills.map((skill, index) => (
             <AboutItem
@@ -61,6 +63,7 @@ const About = () => {
           ))
         }
 
+</div>
       </div>
     </div>
   );
