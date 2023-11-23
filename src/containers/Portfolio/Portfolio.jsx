@@ -19,9 +19,15 @@ const Portfolio = () => {
       link:"https://rajinsakha.github.io/React-TextUtils/"
     },
     {
+      img: images.logistics,
+      title: 'Logistics',
+      description:"The Logistics Web App is developed using React JS for its dynamic frontend and enhanced with Tailwind CSS for a sleek, and responsive design. This front-end solution is designed to enhance the logistics experience by providing a seamless and intuitive interface for users.",
+      link:"https://rajinsakha.github.io/Logistics/"
+    },
+    {
       img: images.calculator,
       title: 'Calculator',
-      description:"This Calculator, crafted using the robust and dynamic React JS framework, exemplifies a seamless melding of simplicity, functionality, and elegance. With a user-friendly interface that facilitates easy input and clear display, alongside precise computational abilities, it effortlessly handles a variety of calculations, be it basic arithmetic or complex computations. The React JS backbone ensures a responsive and intuitive user experience, making this Calculator not just a tool, but a reliable companion for solving mathematical queries swiftly and accurately.",
+      description:"This Calculator, built using React JS, combines simplicity, functionality, and elegance. It's user-friendly, making input easy and results clear. It handles basic math and complex computations with precision. React JS ensures a smooth and intuitive experience, making this Calculator a reliable tool for solving math problems quickly and accurately.",
       link:"https://rajinsakha.github.io/Calculator/"
     },
     {

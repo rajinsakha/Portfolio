@@ -5,6 +5,7 @@ import groceryStore from '../assets/groceryStore.png';
 import textUtils from '../assets/textUtils.png';
 import calculator from '../assets/calculator.png';
 import travelAgency from '../assets/travelAgency.png';
+import logistics from '../assets/logistics.png'
 
 export default {
     logo,
@@ -13,5 +14,6 @@ export default {
     groceryStore,
     textUtils, 
     calculator,
-    travelAgency
+    travelAgency,
+    logistics
 };

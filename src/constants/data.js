@@ -10,7 +10,7 @@ const skills = [
   {
   
     title: 'Framework and Libraries',
-    subtitle: 'React.js, Bootstrap, Tailwind',
+    subtitle: 'React.js, Redux, Bootstrap, Tailwind, ',
   },
   {
    
