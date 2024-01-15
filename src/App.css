@@ -65,6 +65,8 @@
       cursor: pointer;
   }
 
+ 
+
   .custom__button:hover{
     background-color: var(--color-hover);
   }

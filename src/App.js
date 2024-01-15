@@ -2,16 +2,20 @@ import React from "react";
 import { About, Contact, Header, Services, Portfolio } from './containers';
 import { Navbar, Footer } from './components';
 import './App.css';
+import TopButton from "./components/BackToTopButton/TopButton";
 
 const App = () => (
   <div>
     <Navbar />
+    <TopButton />
     <Header />
     <About />
     <Services />
     <Portfolio />
     <Contact />
     <Footer />
+   
+    
   </div>
 );
 
