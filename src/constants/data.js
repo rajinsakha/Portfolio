@@ -22,10 +22,9 @@ const skills = [
 
 const experiences = [
   {
-    title: 'No Professional Experience',
-    subtitle:'Looking for Front-End Developer Internships'
-  }
- 
+    title: 'Dec 2023 - Present',
+    subtitle:'React Developer Intern at Hunchha Digital'
+  } 
 ];
 
 
