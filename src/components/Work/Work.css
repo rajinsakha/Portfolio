@@ -32,6 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .app__work_image img {
@@ -60,7 +61,6 @@
   color: var(--color-white);
   font-weight: 500;
   font-size: 2rem;
-  padding: 1rem 0rem;
 }
 
 .app__work_details-description {
