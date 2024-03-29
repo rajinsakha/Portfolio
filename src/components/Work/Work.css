@@ -107,6 +107,13 @@
   .app__work{
     margin-bottom: 2rem;
   }
+
+  .app__work.even .app__work.odd .app__work_image img{
+    box-shadow: 10px -10px 5px #ff005e; /* Adjusted the horizontal offset to positive and vertical offset to negative */
+    -moz-box-shadow: 10px -10px 5px #ff005e; /* Adjusted for Mozilla Firefox */
+    -webkit-box-shadow: 10px -10px 5px #ff005e; /* Adjusted for Webkit browsers */
+    -khtml-box-shadow: 10px -10px 5px #ff005e; /* Adjusted for KHTML browsers */
+  }
 }
 
 @media screen and (max-width: 450px) {
