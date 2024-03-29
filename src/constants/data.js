@@ -1,51 +1,56 @@
 
-
-
-const skills = [
-  {
-
-    title: 'Programming Languages',
-    subtitle: 'HTML, CSS, JavaScript, PHP, MySQL',
-  },
-  {
+const data = {
+   skills:[
+    {
   
-    title: 'Framework and Libraries',
-    subtitle: 'React.js, Redux, Bootstrap, Tailwind, ',
-  },
-  {
+      title: 'Programming Languages',
+      subtitle: 'HTML, CSS, JavaScript, TypeScript, PHP, MySQL',
+    },
+    {
+    
+      title: 'Framework and Libraries',
+      subtitle: 'React.js, Next.js, Redux, Tailwind CSS ',
+    },
+    {
+     
+      title: 'Version Control Systems',
+      subtitle: 'Git, GitHub',
+    },
    
-    title: 'Version Control Systems',
-    subtitle: 'Git, GitHub',
-  },
- 
-];
-
-const experiences = [
-  {
-    title: 'Dec 2023 - Present',
-    subtitle:'React Developer Intern at Hunchha Digital'
-  } 
-];
-
-
-const qualifications = [
-  {
-
-    title: '2021-Current',
-    subtitle: 'BIT From Padmashree College',
-  },
-  {
+  ],
   
-    title: '2020',
-    subtitle: 'Intermediate Level From Pentagon International College',
-  },
-  {
+  experiences: [
+    {
+      title: 'April 2024 - Present',
+      subtitle:'Junior Front-end Developer at Hunchha Digital'
+    } ,
+    {
+      title: 'Dec 2023 - Mar 2024',
+      subtitle:'Front-end Developer Intern at Hunchha Digital'
+    } 
+  ],
+  
+  
+ qualifications: [
+    {
+  
+      title: '2021 - Present',
+      subtitle: 'BIT From Padmashree College',
+    },
+    {
+    
+      title: '2020',
+      subtitle: 'Intermediate Level From Pentagon International College',
+    },
+    {
+     
+      title: '2018',
+      subtitle: 'S.E.E. From Samata Shikshya Niketan',
+    },
    
-    title: '2018',
-    subtitle: 'S.E.E. From Samata Shikshya Niketan',
-  },
- 
-];
+  ]
+  
+}
 
 
-export default { skills, experiences, qualifications };
+export default data;

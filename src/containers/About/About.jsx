@@ -6,7 +6,7 @@ import "./About.css";
 import AboutItem from "../../components/AboutItem/AboutItem";
 
 const About = () => {
-  const [activeList, setActiveList] = useState(0); 
+  const [activeList, setActiveList] = useState(0);
 
   return (
     <div className="app__about section__padding" id="about">
@@ -17,53 +17,64 @@ const About = () => {
       <div className="app__wrapper_info">
         <h1 className="headtext__title">About Me</h1>
         <p className="p__description">
-          Hello Everyone! I'm Rajin Sakha, an aspiring front-end developer with a strong foundation in HTML, CSS, JavaScript, and a particular interest in React JS. Through academic projects and self-driven exploration, I've developed a knack for creating clean, user-friendly, and responsive web interfaces.  As I near the completion of my studies, I am excited to apply my skills in a practical setting and contribute to meaningful web projects. Let's create something awesome together!
+          I'm Rajin Sakha, a Junior Front-end Developer specializing in Next.js and
+          React.js. Passionate about crafting captivating web experiences, I merge
+          creativity with technical proficiency. Detail-oriented and committed
+          to quality, I thrive in collaborative environments, valuing teamwork
+          and effective communication. Eager to learn and evolve, I seek to make
+          impactful contributions to projects. My goal is to refine my skills,
+          push boundaries, and create remarkable digital solutions. Let's
+          connect and innovate together!
         </p>
         <div className="app__about-content">
-          <p className={`tab-links ${activeList === 0 ? 'active' : ''}`} onClick={() => setActiveList(0)}>
+          <p
+            className={`tab-links ${activeList === 0 ? "active" : ""}`}
+            onClick={() => setActiveList(0)}
+          >
             Skills
           </p>
-          <p className={`tab-links ${activeList === 1 ? 'active' : ''}`} onClick={() => setActiveList(1)}>
+          <p
+            className={`tab-links ${activeList === 1 ? "active" : ""}`}
+            onClick={() => setActiveList(1)}
+          >
             Experience
           </p>
-          <p className={`tab-links ${activeList === 2 ? 'active' : ''}`} onClick={() => setActiveList(2)}>
+          <p
+            className={`tab-links ${activeList === 2 ? "active" : ""}`}
+            onClick={() => setActiveList(2)}
+          >
             Education
           </p>
         </div>
 
         <div className="fixed-list">
+          {activeList === 0 &&
+            data.skills.map((skill, index) => (
+              <AboutItem
+                key={skill.title + index}
+                title={skill.title}
+                subtitle={skill.subtitle}
+              />
+            ))}
 
-        {activeList === 0 && 
-          data.skills.map((skill, index) => (
-            <AboutItem
-              key={skill.title + index}
-              title={skill.title}
-              subtitle={skill.subtitle}
-            />
-          ))
-        }
+          {activeList === 1 &&
+            data.experiences.map((experience, index) => (
+              <AboutItem
+                key={experience.title + index}
+                title={experience.title}
+                subtitle={experience.subtitle}
+              />
+            ))}
 
-        {activeList === 1 && 
-          data.experiences.map((experience, index) => (
-            <AboutItem
-              key={experience.title + index}
-              title={experience.title}
-              subtitle={experience.subtitle}
-            />
-          ))
-        }
-
-        {activeList === 2 && 
-          data.qualifications.map((qualification, index) => (
-            <AboutItem
-              key={qualification.title + index}
-              title={qualification.title}
-              subtitle={qualification.subtitle}
-            />
-          ))
-        }
-
-</div>
+          {activeList === 2 &&
+            data.qualifications.map((qualification, index) => (
+              <AboutItem
+                key={qualification.title + index}
+                title={qualification.title}
+                subtitle={qualification.subtitle}
+              />
+            ))}
+        </div>
       </div>
     </div>
   );
