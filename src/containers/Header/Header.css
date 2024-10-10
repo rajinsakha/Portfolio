@@ -24,8 +24,6 @@
     width: 80%;
 }
 
-
-
 @media screen and (max-width: 1150px) {
     .app__header{
         flex-direction: column;
