@@ -4,6 +4,7 @@ import {BiSolidDevices} from 'react-icons/bi';
 
 import './Services.css';
 import ServiceItem from '../../components/ServiceItem/ServiceItem';
+import Reveal from '../../components/Animations/Reveal';
 
 const services = [
   {
@@ -30,7 +31,10 @@ const Services = () => {
 
   return (
     <div className='app__services section__padding' id='services'>
-        <h1 className="headtext__title" style={{textAlign:'center'}}>My Services</h1>
+      <Reveal>
+      <h1 className="headtext__title" style={{textAlign:'center'}}>My Services</h1>
+      </Reveal>
+       
 
         <div className="app__grid_content">
           {services.map((service,index)=>(

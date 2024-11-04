@@ -4,12 +4,12 @@
 }
 
 .app__portfolio-content{
-    margin: 4rem 0;
+    margin: 2rem 0;
 }
 
 @media screen and (max-width: 750px){
   .app__portfolio-content{
-    margin: 2rem 0;
+    margin: 1.5rem 0;
   }
 } 
 

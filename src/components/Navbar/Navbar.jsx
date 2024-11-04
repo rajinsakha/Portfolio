@@ -23,11 +23,11 @@ const Navbar = () => {
         <li className="app__navbar-link">
           <a href="#about">About</a>
         </li>
-        <li className="app__navbar-link">
+        {/* <li className="app__navbar-link">
           <a href="#services">Services</a>
-        </li>
+        </li> */}
         <li className="app__navbar-link">
-          <a href="#portfolio">Portfolio</a>
+          <a href="#projects">Projects</a>
         </li>
         <li className="app__navbar-link">
           <a href="#contact">Contact</a>
@@ -59,11 +59,11 @@ const Navbar = () => {
               <li className="app__navbar-link">
                 <a href="#about">About</a>
               </li>
-              <li className="app__navbar-link">
+              {/* <li className="app__navbar-link">
                 <a href="#services">Services</a>
-              </li>
+              </li> */}
               <li className="app__navbar-link">
-                <a href="#portfolio">Portfolio</a>
+                <a href="#projects">Projects</a>
               </li>
               <li className="app__navbar-link">
                 <a href="#contact">Contact</a>
