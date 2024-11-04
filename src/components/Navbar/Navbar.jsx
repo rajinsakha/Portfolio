@@ -5,7 +5,7 @@ import { IoClose } from "react-icons/io5";
 import images from "../../constants/images";
 
 import "./Navbar.css";
-
+import { data } from "../../constants";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -13,25 +13,18 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <a href="#home"> <img src={images.logo} alt="logo" /></a>
+        <a href="#home">
+          {" "}
+          <img src={images.logo} alt="logo" />
+        </a>
       </div>
 
       <ul className="app__navbar-links">
-        {/* <li className="app__navbar-link">
-          <a href="#home">Home</a>
-        </li> */}
-        <li className="app__navbar-link">
-          <a href="#about">About</a>
-        </li>
-        {/* <li className="app__navbar-link">
-          <a href="#services">Services</a>
-        </li> */}
-        <li className="app__navbar-link">
-          <a href="#projects">Projects</a>
-        </li>
-        <li className="app__navbar-link">
-          <a href="#contact">Contact</a>
-        </li>
+        {data.navList.map((nav) => (
+          <li className="app__navbar-link" key={nav.id}>
+            <a href={nav.link}>{nav.title}</a>
+          </li>
+        ))}
       </ul>
 
       <div className="app__navbar-smallscreen">
@@ -53,21 +46,11 @@ const Navbar = () => {
               }}
             />
             <ul className="app__navbar-smallscreen_links">
-              {/* <li className="app__navbar-link">
-                <a href="#home">Home</a>
-              </li> */}
-              <li className="app__navbar-link">
-                <a href="#about">About</a>
-              </li>
-              {/* <li className="app__navbar-link">
-                <a href="#services">Services</a>
-              </li> */}
-              <li className="app__navbar-link">
-                <a href="#projects">Projects</a>
-              </li>
-              <li className="app__navbar-link">
-                <a href="#contact">Contact</a>
-              </li>
+              {data.navList.map((nav) => (
+                <li className="app__navbar-link" key={nav.id}>
+                  <a href={nav.link}>{nav.title}</a>
+                </li>
+              ))}
             </ul>
           </div>
         )}
