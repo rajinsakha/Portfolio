@@ -64,9 +64,15 @@
     overflow: auto;
 }
 
+@media screen and (max-width: 1024px) {
+    .app__about_main{
+        flex-direction: column;
+        
+    }
+}
+
 @media screen and (max-width: 850px) {
 .app__about_main{
-    flex-direction: column;
     margin: 1.5rem 0;
 }
 

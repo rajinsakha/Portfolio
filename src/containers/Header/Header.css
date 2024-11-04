@@ -28,6 +28,7 @@
 @media screen and (max-width: 1150px) {
     .app__header{
         flex-direction: column;
+        min-height: auto;
     }
 
     #img-div {
