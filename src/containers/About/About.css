@@ -51,7 +51,7 @@
     position: relative; /* For parent */
 }
 
-.tab-links::after{
+ .tab-links::after{
     content: '';
     width: 0;
     height: 3px;
@@ -62,9 +62,16 @@
     transition: 0.5s;
 }
 
+.tab-links.active, .tab-links:hover{
+    color: var(--color-white);
+}
+
 .tab-links.active::after{
      width: 50%;
+
 }
+
+
 
 .fixed-list{
     height: 250px;

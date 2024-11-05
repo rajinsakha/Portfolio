@@ -13,7 +13,7 @@ const Header = () => {
         <Reveal>  <h2 className='app__header-h2'>I'm a <span className='app__header_highlighted'>Front End Developer</span></h2></Reveal>
      
       <Reveal>
-      <p className='app__header-p'>I create user-friendly web applications with a focus on modern technologies like React and Next.js. Let’s turn your ideas into reality!</p>
+      <p className='app__header-p'>I create user-friendly web applications with a focus on modern technologies like React.js and Next.js. Let&apos;s turn your ideas into reality!</p>
       </Reveal>
       <Reveal>
       <a href='/RajinSakha_Resume.pdf' target='_blank' rel='noreferrer' className='custom__button' style={{marginTop:"2rem"}}>View Resume</a>

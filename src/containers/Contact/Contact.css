@@ -84,6 +84,10 @@ textarea {
   cursor: pointer;
 }
 
+.contact-btn:hover{
+  background-color: rgb(191, 0, 0);
+}
+
 .sent-message{
   margin-top: 1rem;
   color: var(--color-golden);

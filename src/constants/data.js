@@ -21,7 +21,7 @@ const data = {
   skills: [
     {
       title: "Programming Languages",
-      subtitle: "HTML, CSS, JavaScript, TypeScript, PHP, MySQL",
+      subtitle: "HTML, CSS, JavaScript, TypeScript",
     },
     {
       title: "Framework and Libraries",
@@ -46,16 +46,16 @@ const data = {
 
   qualifications: [
     {
-      title: "2021 - Present",
-      subtitle: "BIT From Padmashree College",
+      title: "2021 - 2024",
+      subtitle: "Bachelor of Information Technology (BIT Hons.)",
     },
     {
       title: "2020",
-      subtitle: "Intermediate Level From Pentagon International College",
+      subtitle: "Intermediate Level (+2)",
     },
     {
       title: "2018",
-      subtitle: "S.E.E. From Samata Shikshya Niketan",
+      subtitle: "Secondary Education Examination (S.E.E.)",
     },
   ],
 };

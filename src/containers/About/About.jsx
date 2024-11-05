@@ -23,15 +23,21 @@ const About = () => {
         <div className="app__wrapper_info">
           <Reveal>
             <p className="p__description">
-              I'm Rajin Sakha, a <span className="about_highlighted">Junior Front-end Developer</span> specializing in
-              Next.js and React.js. Passionate about crafting captivating web
-              experiences, I merge creativity with technical proficiency.
-              Detail-oriented and committed to quality, I thrive in
-              collaborative environments, valuing teamwork and effective
-              communication. Eager to learn and evolve, I seek to make impactful
-              contributions to projects. My goal is to refine my skills, push
-              boundaries, and create remarkable digital solutions. Let's connect
-              and innovate together!
+              Hi, I'm <span className="about_highlighted">Rajin Sakha</span> , a{" "}
+              <span className="about_highlighted">
+                Junior Front-end Developer
+              </span>{" "}
+              specializing in{" "}
+              <span className="about_highlighted">React.js.</span> and{" "}
+              <span className="about_highlighted">Next.js.</span> Passionate
+              about crafting captivating web experiences, I merge creativity
+              with technical proficiency. Detail-oriented and committed to
+              quality, I thrive in collaborative environments that value
+              teamwork and clear communication. Eager to learn and evolve, I'm
+              focused on making impactful contributions to each project. My goal
+              is to continuously refine my skills, push boundaries, and build
+              remarkable digital solutions. Let's connect and create something
+              amazing together!
             </p>
           </Reveal>
 

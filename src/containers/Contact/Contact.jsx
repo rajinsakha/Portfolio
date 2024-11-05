@@ -83,7 +83,7 @@ const Contact = () => {
         <Reveal>
           <div className="flex__center">
             <HiOutlineLocationMarker fontSize={30} color="#ff004f" />
-            <p className="app__contact-text">Duwakot, Bhaktapur, Nepal</p>
+            <p className="app__contact-text">Bhaktapur, Nepal</p>
           </div>
         </Reveal>
 
