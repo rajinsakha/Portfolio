@@ -47,7 +47,7 @@ const Navbar = () => {
             <ul className="app__navbar-smallscreen_links">
               {data.navList.map((nav) => (
                 <li className="app__navbar-link" key={nav.id}>
-                  <a href={nav.link}>{nav.title}</a>
+                  <a href={nav.link} onClick={()=>setToggleMenu(false)}>{nav.title}</a>
                 </li>
               ))}
             </ul>

@@ -28,8 +28,8 @@ const About = () => {
                 Junior Front-end Developer
               </span>{" "}
               specializing in{" "}
-              <span className="about_highlighted">React.js.</span> and{" "}
-              <span className="about_highlighted">Next.js.</span> Passionate
+              <span className="about_highlighted">React.js.</span>{" "}and{" "}
+              <span className="about_highlighted">Next.js.</span>{" "} Passionate
               about crafting captivating web experiences, I merge creativity
               with technical proficiency. Detail-oriented and committed to
               quality, I thrive in collaborative environments that value
