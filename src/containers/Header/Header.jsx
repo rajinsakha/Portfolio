@@ -1,9 +1,9 @@
 import React from 'react';
-
 import './Header.css'
 import Reveal from '../../components/Animations/Reveal';
 
 const Header = () => {
+  
   return (
     <div className='app__header section__padding' id='home'>
       <div className="app__wrapper_info">
