@@ -8,17 +8,27 @@
 
 .app__header-p{
     color: var(--color-white);
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 0.5rem;
 }
 
 .app__header-h1{
     color: var(--color-white);
-    font-size: 4rem;
-    margin-top: 12px;
+    font-size: 5rem;
+    line-height: 7rem;
+    font-weight: 900;
+}
+
+.app__header-h2{
+    color: var(--color-white);
+    font-size: 3rem;
+    font-weight: 400;
 }
 
 .app__header_highlighted{
     color: var(--color-red);
+    font-weight: 600;
+   
 }
 
 .app__wrapper_img img{
@@ -40,17 +50,28 @@
 @media screen and (max-width: 750px ){
     .app__header-h1{
         font-size: 3rem;
-        margin-top: 10px;
+        line-height: 4rem;
+    }
+
+    .app__header-h2{
+        font-size: 2rem;
+        line-height: 3rem;
     }
     
 }
 
 @media screen and (max-width: 500px) {
     .app__header-h1{
-        font-size: 1.9rem;
+        font-size: 2.5rem;
+        line-height: normal;
+    }
+
+    .app__header-h2{
+        font-size: 24px;
+        line-height: normal;
     }
 
     .app__header-p{
-        font-size: 20px;
+        font-size: 16px;
     }
 }

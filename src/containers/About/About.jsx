@@ -23,7 +23,7 @@ const About = () => {
         <div className="app__wrapper_info">
           <Reveal>
             <p className="p__description">
-              I'm Rajin Sakha, a Junior Front-end Developer specializing in
+              I'm Rajin Sakha, a <span className="about_highlighted">Junior Front-end Developer</span> specializing in
               Next.js and React.js. Passionate about crafting captivating web
               experiences, I merge creativity with technical proficiency.
               Detail-oriented and committed to quality, I thrive in
