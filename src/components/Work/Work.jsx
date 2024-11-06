@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import "./Work.css";
 import Reveal from "../Animations/Reveal";
+import Modal from "../Common/Modal";
 
 const Work = ({ imgUrl, title, description, link, index }) => {
   const isEvenIndex = index % 2 === 0;
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const handleImageClick = () => {
+    setIsModalOpen(true);
+  };
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+  
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isModalOpen]);
+
 
   return (
     <div className={`app__work ${isEvenIndex ? "even" : "odd"}`}>
@@ -30,7 +47,7 @@ const Work = ({ imgUrl, title, description, link, index }) => {
               </a>
             </Reveal>
           </div>
-          <div className="app__work_image">
+          <div className="app__work_image" onClick={handleImageClick} >
             <Reveal>
               <img src={imgUrl} alt={`${imgUrl} thumbnail`} />
             </Reveal>
@@ -38,9 +55,9 @@ const Work = ({ imgUrl, title, description, link, index }) => {
         </>
       ) : (
         <>
-          <div className="app__work_image">
+          <div className="app__work_image" onClick={handleImageClick}>
             <Reveal>
-              <img src={imgUrl} alt={`${imgUrl} thumbnail`} />
+              <img src={imgUrl} alt={`${imgUrl} thumbnail`}  />
             </Reveal>
           </div>
           <div className="app__work_details">
@@ -65,6 +82,7 @@ const Work = ({ imgUrl, title, description, link, index }) => {
           </div>
         </>
       )}
+      {isModalOpen && <Modal imgURL={imgUrl} isOpen={isModalOpen} setIsOpen={setIsModalOpen} />}
     </div>
   );
 };

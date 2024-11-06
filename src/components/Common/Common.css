@@ -1,0 +1,105 @@
+/* Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7); /* Darker background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+    z-index: 1000;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    max-width: 90%;
+    width: 800px; /* Make it wider on larger screens */
+    max-height: 90vh;
+    overflow-y: auto; /* Allows scroll if content overflows */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: slideUp 0.3s forwards;
+  }
+  
+  @keyframes slideUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Modal Image */
+  .modal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Close Button */
+  .close-modal {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.2s;
+  }
+  
+  .close-modal:hover {
+    color: var(--color-red);
+  }
+  
+  /* Responsive Adjustments */
+  @media screen and (min-width: 1200px) {
+    .modal-content {
+      max-width: 60%;
+      padding: 30px;
+    }
+  
+    .close-modal {
+      font-size: 28px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .modal-content {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .close-modal {
+      font-size: 22px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .modal-content {
+      width: 85%;
+    }
+  
+    .close-modal {
+      font-size: 20px;
+    }
+  }
+  
