@@ -1,5 +1,4 @@
 import logo from '../assets/logo.png';
-import headerImg from '../assets/RajinSakha.jpg';
 import aboutImg from '../assets/about-img.jpg';
 import groceryStore from '../assets/groceryStore.png';
 import textUtils from '../assets/textUtils.png';
@@ -12,9 +11,10 @@ import billingSystem from '../assets/billing-system.png';
 import shaasan2 from '../assets/shaasan2.png';
 
 
+
 const images = {
     logo,
-    headerImg,
+
     aboutImg,
     groceryStore,
     textUtils, 
