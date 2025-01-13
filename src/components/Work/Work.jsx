@@ -47,9 +47,9 @@ const Work = ({ imgUrl, title, description, link, index }) => {
               </a>
             </Reveal>
           </div>
-          <div className="app__work_image" onClick={handleImageClick} >
+          <div className="app__work_image " onClick={handleImageClick} >
             <Reveal>
-              <img src={imgUrl} alt={`${imgUrl} thumbnail`} />
+              <img src={imgUrl} alt={`${imgUrl} thumbnail`}  />
             </Reveal>
           </div>
         </>

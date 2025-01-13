@@ -87,7 +87,7 @@ const Contact = () => {
           </div>
         </Reveal>
 
-        <div className="flex__center app__contact-social_icons">
+        <div className="flex__center app__contact-social_icons gap-4">
           <Reveal>
           <a href="https://www.facebook.com/Rajinsakha" target="_blank" rel="noreferrer">
             <BsFacebook className="social_icon" fontSize={30} color="#ababab" />
