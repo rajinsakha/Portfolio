@@ -20,6 +20,7 @@ const Portfolio = () => {
             index={index}
             description={project.description}
             link={project.link}
+            techStack={project.techStack}
             key={project.title + index}
           />
         ))}

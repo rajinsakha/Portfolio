@@ -1,13 +1,13 @@
 import About from "./About/About";
 import Contact from "./Contact/Contact";
-import Header from "./Header/Header";
+import Hero from "./Hero/Hero";
 import Portfolio from "./Portfolio/Portfolio";
 import Services from "./Services/Services";
 
 export {
     About,
     Contact,
-    Header,
+    Hero,
     Portfolio,
     Services
 }

@@ -9,12 +9,13 @@ import shaasan from '../assets/shaasan.png';
 import hajirkhata from '../assets/hajirkhata.png';
 import billingSystem from '../assets/billing-system.png';
 import shaasan2 from '../assets/shaasan2.png';
+import heroImg from '../assets/hero-image.webp';
 
 
 
 const images = {
     logo,
-
+heroImg,
     aboutImg,
     groceryStore,
     textUtils, 
