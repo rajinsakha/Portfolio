@@ -8,7 +8,7 @@ import logistics from '../assets/logistics.png';
 import shaasan from '../assets/shaasan.png';
 import hajirkhata from '../assets/hajirkhata.png';
 import billingSystem from '../assets/billing-system.png';
-import shaasan2 from '../assets/shaasan2.png';
+import workspace from '../assets/workspace-nepal.png';
 import heroImg from '../assets/hero-image.webp';
 
 
@@ -25,7 +25,7 @@ heroImg,
     shaasan,
     hajirkhata,
     billingSystem,
-    shaasan2
+    workspace
 };
 
 export default images;
