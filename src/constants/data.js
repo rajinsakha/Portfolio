@@ -1,5 +1,4 @@
 const data = {
-  
   navList: [
     {
       id: 1,
@@ -25,7 +24,8 @@ const data = {
     },
     {
       title: "Framework and Libraries",
-      subtitle: "React.js, Next.js, Redux, Tailwind CSS ",
+      subtitle:
+        "React.js, Next.js, React Native, Node.js, Redux, Zustand, Tailwind CSS",
     },
     {
       title: "Version Control Systems",
