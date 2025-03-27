@@ -15,7 +15,7 @@ const Portfolio = () => {
       <div className="app__portfolio-content">
         {projects.map((project, index) => (
           <Work
-            imgUrl={project.img}
+            imgs={project.imgs}
             title={project.title}
             index={index}
             description={project.description}

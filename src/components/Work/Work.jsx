@@ -4,7 +4,7 @@ import "./Work.css";
 import Reveal from "../Animations/Reveal";
 import Modal from "../Common/Modal";
 
-const Work = ({ imgUrl, title, description, link, index, techStack }) => {
+const Work = ({ imgs, title, description, link, index, techStack }) => {
   const isEvenIndex = index % 2 === 0;
   const [isModalOpen, setIsModalOpen] = useState(false);
   const handleImageClick = () => {
@@ -44,7 +44,10 @@ const Work = ({ imgUrl, title, description, link, index, techStack }) => {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
                   >
-                    <Icon className={`h-8 w-8 text-${color}`} style={{ color: color }} />
+                    <Icon
+                      className={`h-8 w-8 text-${color}`}
+                      style={{ color: color }}
+                    />
                   </motion.div>
                 ))}
               </div>
@@ -63,7 +66,7 @@ const Work = ({ imgUrl, title, description, link, index, techStack }) => {
           </div>
           <div className="app__work_image " onClick={handleImageClick}>
             <Reveal>
-              <img src={imgUrl} alt={`${imgUrl} thumbnail`} />
+              <img src={imgs[0]} alt={`${imgs[0]} thumbnail`} />
             </Reveal>
           </div>
         </>
@@ -71,7 +74,7 @@ const Work = ({ imgUrl, title, description, link, index, techStack }) => {
         <>
           <div className="app__work_image" onClick={handleImageClick}>
             <Reveal>
-              <img src={imgUrl} alt={`${imgUrl} thumbnail`} />
+              <img src={imgs[0]} alt={`${imgs[0]} thumbnail`} />
             </Reveal>
           </div>
           <div className="app__work_details">
@@ -92,7 +95,10 @@ const Work = ({ imgUrl, title, description, link, index, techStack }) => {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
                   >
-                    <Icon className={`h-8 w-8 text-${color}`} style={{ color: color }} />
+                    <Icon
+                      className={`h-8 w-8 text-${color}`}
+                      style={{ color: color }}
+                    />
                   </motion.div>
                 ))}
               </div>
@@ -113,7 +119,8 @@ const Work = ({ imgUrl, title, description, link, index, techStack }) => {
       )}
       {isModalOpen && (
         <Modal
-          imgURL={imgUrl}
+          imgs={imgs}
+          initialIndex={0}
           isOpen={isModalOpen}
           setIsOpen={setIsModalOpen}
         />

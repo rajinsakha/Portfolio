@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Reveal from "../../components/Animations/Reveal";
-import images from "../../constants/images";
+
 import { CodeBlock } from "../../components/CodeBlock/CodeBlock";
 
 const Hero = () => {

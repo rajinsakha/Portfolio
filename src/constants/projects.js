@@ -9,7 +9,7 @@ import {
 
 export const projects = [
   {
-    img: images.hajirkhata,
+    imgs: [images.hajirkhata],
     title: "Hajir Khata",
     description:
       "Hajir Khata is a comprehensive software solution designed to simplify payroll management for businesses of all sizes. Its primary goal is to help organizations effortlessly track daily employee attendance and manage payroll with ease.",
@@ -22,7 +22,7 @@ export const projects = [
     ],
   },
   {
-    img: images.workspace,
+    imgs: [images.workspace],
     title: "WorkSpace Nepal",
     description:
       "Workspace Nepal is a platform where users can list rooms for rent and explore job opportunities across Nepal. It connects property owners with tenants and employers with job seekers, making it a convenient solution for both housing and employment needs.",
@@ -35,7 +35,7 @@ export const projects = [
     ],
   },
   {
-    img: images.billingSystem,
+    imgs: [images.billingSystem, images.billing2, images.billing3],
     title: "Billing System",
     description:
       "The Billing System is a user-friendly web application that simplifies billing and record-keeping for businesses. It includes essential functionalities like inventory management, invoice generator, transaction tracking, and sales reporting.",
