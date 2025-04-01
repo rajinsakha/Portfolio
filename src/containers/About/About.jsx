@@ -23,21 +23,20 @@ const About = () => {
         <div className="app__wrapper_info">
           <Reveal>
             <p className="p__description">
-              Hi, I'm <span className="about_highlighted">Rajin Sakha</span> , a{" "}
-              <span className="about_highlighted">
-                Junior Front-end Developer
-              </span>{" "}
+              Hi, I'm <span className="about_highlighted">Rajin Sakha</span>, a{" "}
+              <span className="about_highlighted">Front-end Developer</span>{" "}
               specializing in{" "}
-              <span className="about_highlighted">React.js.</span>{" "}and{" "}
-              <span className="about_highlighted">Next.js.</span>{" "} Passionate
-              about crafting captivating web experiences, I merge creativity
-              with technical proficiency. Detail-oriented and committed to
-              quality, I thrive in collaborative environments that value
-              teamwork and clear communication. Eager to learn and evolve, I'm
-              focused on making impactful contributions to each project. My goal
-              is to continuously refine my skills, push boundaries, and build
-              remarkable digital solutions. Let's connect and create something
-              amazing together!
+              <span className="about_highlighted">React.js.</span> and{" "}
+              <span className="about_highlighted">Next.js.</span> I love
+              building engaging web experiences that blend creativity with
+              technical know-how. Detail-driven and quality-focused, I shine
+              best in team settings where collaboration and open communication
+              are prioritized. Eager to learn and evolve, I'm always eager to
+              grow, learn new skills, and take on challenges that let me make a
+              real impact on projects. My aim? To keep honing my craft,
+              exploring innovative approaches, and creating standout digital
+              solutions that resonate with users. Let's connect and create
+              something amazing together!
             </p>
           </Reveal>
 
